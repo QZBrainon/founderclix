@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'IBMPlexSans';
+      src: local('IBMPlexSans'),
+           url('/fonts/ttf/static/fonts/ttf/ibm-plex-serif-latin-400-normal.ttf') format('ttf'),
+           url('/fonts/webfonts/ibm-plex-serif-latin-400-normal.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
+  
+  
